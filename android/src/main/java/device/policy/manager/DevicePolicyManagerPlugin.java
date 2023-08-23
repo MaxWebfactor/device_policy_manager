@@ -39,7 +39,7 @@ public class DevicePolicyManagerPlugin
 
     @Override
     public void onMethodCall(@NonNull MethodCall call, @NonNull Result result) {
-        compName = new ComponentName(appContext, DeviceAdmin.class);
+        compName = new ComponentName(appContext, DeviceAdmin.class.java);
         deviceManger = (DevicePolicyManager) appContext.getSystemService(Context.DEVICE_POLICY_SERVICE);
         pendingResult = result;
 
