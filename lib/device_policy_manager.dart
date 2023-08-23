@@ -5,7 +5,7 @@ import 'package:flutter/services.dart';
 
 class DevicePolicyManager {
   static const MethodChannel _channel =
-      MethodChannel('x-slayer/device_policy_manager');
+      MethodChannel('wf/device_policy_manager');
 
   /// Return `true` if the given administrator component is currently active (enabled) in the system.
   /// https://developer.android.com/reference/android/app/admin/DevicePolicyManager#isAdminActive(android.content.ComponentName)

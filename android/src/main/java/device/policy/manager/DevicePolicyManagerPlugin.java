@@ -20,7 +20,7 @@ import io.flutter.plugin.common.PluginRegistry;
 public class DevicePolicyManagerPlugin
         implements FlutterPlugin, ActivityAware, MethodCallHandler, PluginRegistry.ActivityResultListener {
 
-    private final String CHANNEL_TAG = "x-slayer/device_policy_manager";
+    private final String CHANNEL_TAG = "wf/device_policy_manager";
 
     private MethodChannel channel;
     private Context appContext;
